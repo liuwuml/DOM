@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <title>DOM</title>
+  <script>
+    function init() {
+      var obj = document.getElementById("t")
+      alert(obj.innerHTML + "hhhhhhh");
+      obj.innerHTML = "改个名字";
+    }
+    window.onload=init;
+  </script>
+</head>
+
+<body>
+  <h1 id="t">我是一个标题</h1>
+</body>
+
+</html>
